@@ -1,8 +1,8 @@
-##Api de connexion sécurisée avec MongoDB.  
+##titre Api de connexion sécurisée avec MongoDB.  
 
 Lancement de l'api avec: node api.js  
 
-##POST register:  
+##titre POST register:  
 
   Pour créer un compte envoyé un json contenant name, email et password à l'endpoint /register avec la méthode POST.  
   Exemple du json:  
@@ -16,7 +16,7 @@ Lancement de l'api avec: node api.js
     400 "Email existe déjà"  
     201 "Compte créé"  
 
-##POST login:  
+##titre POST login:  
 
   Il faut récupérer un token pour utiliser l'api, pour cela il faut envoyer un json contentant email et password à l'endpoint /login avec la méthode POST.  
   Exemple du json:  
@@ -30,7 +30,7 @@ Lancement de l'api avec: node api.js
     401 "Mauvais mot de passe"  
     201 token  
    
-##GET users:  
+##titre GET users:  
 
   Pour récupérer la liste des utilisateurs, il faut accéder à l'endpoint /users avec la méthode GET et avec le token en Authorization.  
   
