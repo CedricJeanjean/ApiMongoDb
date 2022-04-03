@@ -23,7 +23,7 @@ app.get('/users', (req, res) => {
             retourUtilisateur.push({"name": utilisateur[i].name})
         }
 
-        res.json(retourUtilisateur);
+        res.status(200).json(retourUtilisateur);
     }); 
 });
 }
